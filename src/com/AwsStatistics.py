@@ -9,7 +9,7 @@ import Ngrams
 from collections import OrderedDict
 import collections
 
-keyword = "toothpaste+dispenser"
+keyword = "hair wax"
 
 items = MysqlConn.queryCollection(keyword)
 output = []
